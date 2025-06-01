@@ -28,3 +28,42 @@ body{
     font-weight: 300;
     src: url("../fonts/poppins/poppins-light-webfont.woff" ), format("woff");
 }
+
+:root{
+    --color_C90000: #c90000;
+    --color_7D7C7C: #7D7C7C;
+    --color_504F4f: #504f4f;
+    --color_323232: #323232;
+    --color_ffc300: #ffc300;
+    --color_fff6a3: #fff6a3;
+    --color_e3e3e3: #e3e3e3;
+    --color_f1f1f1: #f1f1f1;
+
+
+}
+
+.text-danger {
+    color: var(--color_c90000);
+}
+
+.main-header{
+    margin-top: 1rem;
+}
+
+.container-site{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: 58px 510px 187px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
