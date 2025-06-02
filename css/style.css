@@ -7,6 +7,13 @@
 body{
     font-family: poppins;
 }
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 @font-face {
     font-family: poppins;
@@ -57,13 +64,26 @@ body{
 
 .navigation{
     display: grid;
-    grid-template-columns: 58px 510px 187px;
+    grid-template-columns: 58px 635px 187px;
     justify-content: space-between;
     align-items: center;
 }
 
 .navigation ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items:center;
+    gap: 2.5rem;
+}
+
+.navigation ul li:first-child a {
+    color:var(--color_C90000);
+}
+
+.navigation ul li:not(:first-child) a {
+    color:var(--color_7D7C7C);
+}
+
+.navigation ul li a {
+    color:var(--color_7D7C7C);
 }
