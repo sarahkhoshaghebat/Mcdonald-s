@@ -202,11 +202,30 @@ img{
 .fixed-box-delivery {
     position: absolute;
     top: 5rem;
-    left: -4rem;
+    left: -7rem;
     border-radius:50px 50px 0 50px;
     border:1px solid var(--color_f1f1f1);
     background-color: var(--color-rgba-241-040);
     padding: 12px;
+    text-align: center;
+}
+
+.fixed-box-delivery div{
+   display: flex;
+   align-items:center;
+}
+
+.fixed-box-delivery > span{
+   color:var(--color_7D7C7C);
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.fixed-box-delivery div span{
+   color:var(--color_323232);
+   font-size: 24px;
+   font-weight: 300;
+   margin-left: 5px;
 }
 
 .order-food{
