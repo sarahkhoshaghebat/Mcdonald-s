@@ -69,9 +69,19 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .content-left-header-bottom{
+        width: 100%;
         text-align: center;
     }
-    .content-left-header-bottom p , .content-left-header-bottom{
+    .content-left-header-bottom p{
         max-width: 100%;
     }
+    .order-food-desktop{
+        display: none;
+    }
+}
+
+@media(min-width:677px){
+   .order-food-mobile{
+        display: none;
+   }
 }
