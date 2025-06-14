@@ -68,4 +68,10 @@
     .header-bottom{
         grid-template-columns: repeat(1, 1fr);
     }
+    .content-left-header-bottom{
+        text-align: center;
+    }
+    .content-left-header-bottom p , .content-left-header-bottom{
+        max-width: 100%;
+    }
 }
