@@ -334,3 +334,32 @@ img{
     margin-top: -30px;
     z-index: -1;
 }
+
+.row-button-category{
+    display: grid;
+    grid-auto-columns: 171px;
+    grid-auto-flow: column;
+    column-gap: 20px;
+    overflow: auto;
+    margin-top: 32px;
+}
+
+.row-button-category button{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius:100px;
+    border: 1px solid var(--color_e3e3e3);
+    background-color: var(--color_f1f1f1);
+    padding: 14px 20px;
+    color: var(--color_504F4f);
+    font-size: 16px;
+    font-weight: 400;
+    column-gap:8px;
+}
+
+.button-active-category{
+    background-color:var(--color_ffc300) !important;
+    color:var(--color_323232) !important;
+    font-weight: 600 !important;
+}
