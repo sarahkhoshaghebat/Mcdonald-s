@@ -66,6 +66,7 @@ a{
     --color_fff6a3: #fff6a3;
     --color_e3e3e3: #e3e3e3;
     --color_f1f1f1: #f1f1f1;
+    --color_FFFDE6: #FFFDE6;
     --color_fff:#fff;
     --color-rgba-241: rgba(241, 241, 241, 0.70);
     --color-rgba-241-040: rgba(241, 241, 241, 0.40);
@@ -379,16 +380,53 @@ img{
     padding: 16px;
 }
 
-.item-food-grid{
+.img-item-food-grid{
     position: relative;
 }
 
 .img-item-food-grid div {
     height: 105px;
-    background-color: var(--color_fff6a3);
+    background-color: var(--color_FFFDE6);
     border-radius:12px;
     position: absolute;
     width: 100%;
     bottom: -2px;
     z-index: -1;
+}
+
+.info-item-food-grid{
+    margin-top: 18px;
+}
+
+.info-item-food-grid h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color_323232);
+}
+
+.info-item-food-grid p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: var(--color_504F4f);
+}
+.score-item-food-grid{
+    margin: 12px 0 20px 0;
+}
+
+.bottom-item-food-grid{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.bottom-item-food-grid span{
+    color: var(--color_323232);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bottom-item-food-grid button{
+    border-radius: 8px;
+    border: none;
 }
