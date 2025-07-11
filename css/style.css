@@ -366,11 +366,13 @@ img{
 }
 
 .row-grid-food-products{
+    display: grid;
+    grid-template-columns: repeat(3,370px);
     margin-top: 32px;
+    gap: 30px;
 }
 
 .item-food-grid{
-    width: 300px;
     border: 1px solid var(--color_e3e3e3);
     border-radius: 12px;
     -webkit-border-radius: 12px;
