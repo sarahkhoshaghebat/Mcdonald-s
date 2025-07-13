@@ -373,7 +373,6 @@ img{
 }
 
 .item-food-grid{
-    position: relative;
     border: 1px solid var(--color_e3e3e3);
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -434,6 +433,3 @@ img{
     border: none;
 }
 
-.badge{
-    position: absolute;
-}
