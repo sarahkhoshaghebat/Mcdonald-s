@@ -380,10 +380,22 @@ img{
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     padding: 16px;
+    position: relative;
+}
+
+.badge-discount {
+    width: 48px;
+    position: absolute;
 }
 
 .img-item-food-grid{
     position: relative;
+    text-align: center;
+}
+
+.img-item-food-grid img{
+    max-width: 227px;
+    max-height: 200px;
 }
 
 .img-item-food-grid div {
