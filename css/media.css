@@ -62,6 +62,7 @@
     .menu-icon{
         display: none;
     }
+
 }
 
 @media(max-width:676px){
@@ -96,6 +97,5 @@
         display: none;
    }
 }
-
 
 
