@@ -325,10 +325,12 @@ img{
     color:var(--color_C90000);
     font-size: 48px;
     font-weight: 600;
+    text-transform: uppercase;
+    width: max-content;
 }
 
-.line-bottom-row-titlt{
-    width: 137px;
+.line-bottom-row-title{
+    width: 220px;
     height: 9px;
     background-color:var(--color_fff6a3);
     position: absolute;
