@@ -473,8 +473,30 @@ img{
 
 .item-food-off{
     width: 370px;
+    height: 335px;
+    padding: 1.2rem 0 1.2rem 1.2rem;
+    border: 1px solid var(--color_e3e3e3);
+    background-color: var(--color_f1f1f1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .row-info-food-off{
     display: flex;
+}
+
+.title-sm-item-food-off span:last-child{
+    display: inline-block;
+    width: 75%;
+    background-color: var(--color_7D7C7C);
+    height: 3px;
+}
+
+.title-sm-item-food-off{
+    display: flex;
+    align-items:center;
+    column-gap: 11px;
 }
