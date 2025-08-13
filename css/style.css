@@ -474,7 +474,7 @@ img{
 .item-food-off{
     width: 370px;
     height: 335px;
-    padding: 1.2rem 0 1.2rem 1.2rem;
+    padding: 2rem 0 2rem 1.2rem;
     border: 1px solid var(--color_e3e3e3);
     background-color: var(--color_f1f1f1);
     border-radius: 20px;
@@ -488,15 +488,80 @@ img{
     display: flex;
 }
 
+.title-sm-item-food-off span:first-child{
+    color:var(--color_323232);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .title-sm-item-food-off span:last-child{
     display: inline-block;
     width: 75%;
     background-color: var(--color_7D7C7C);
-    height: 3px;
+    height: 1px;
 }
 
 .title-sm-item-food-off{
     display: flex;
     align-items:center;
     column-gap: 11px;
+}
+
+.left-item-food-off {
+    width: 95%;
+}
+
+.left-item-food-off h6{
+    color: var(--color_C90000);
+    margin: 0.5rem 0;
+    font-size: 27px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.left-item-food-off p{
+    color: var(--color_504F4f);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.price-off del{
+    color:var(--color_7D7C7C);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price-off span{
+    display: inline-block;
+    margin: 0.5rem;
+    color:var(--color_C90000);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.left-item-food-off button {
+    background-color: var(--color_504F4f);
+    color: var(--color_f1f1f1);
+    border-radius:20px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: poppins;
+    border:none;
+    display: flex;
+    align-items:center;
+    column-gap:3px;
+    padding: 8px 12px;
+    margin-top: 3.5rem;
+}
+
+.left-item-food-off button span {
+    height: 24px;
+    line-height: 27px;
+}
+
+.right-item-food-off img {
+    text-transform: scale(5);
+    position: relative;
+    margin-top: 25px;
 }
