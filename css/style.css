@@ -471,8 +471,14 @@ img{
     justify-content: center;
 }
 
+.grid-foods-off{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 30px;
+    margin-top: 2rem;
+}
+
 .item-food-off{
-    width: 370px;
     height: 335px;
     padding: 2rem 0 2rem 1.2rem;
     border: 1px solid var(--color_e3e3e3);
@@ -552,7 +558,7 @@ img{
     align-items:center;
     column-gap:3px;
     padding: 8px 12px;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
 }
 
 .left-item-food-off button span {
@@ -560,8 +566,10 @@ img{
     line-height: 27px;
 }
 
-.right-item-food-off img {
-    text-transform: scale(5);
+.right-item-food img {
     position: relative;
-    margin-top: 25px;
+    margin-top: 15px;
+    max-width: 273px;
+    max-height: 204px;
+    width: 180px;
 }
