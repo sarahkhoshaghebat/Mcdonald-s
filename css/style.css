@@ -6,6 +6,7 @@
 
 body{
     font-family: poppins;
+    overflow-x: hidden;
 }
 ul {
     list-style: none;
@@ -93,7 +94,7 @@ img{
 
 .navigation{
     display: grid;
-    grid-template-columns: 58px 635px 187px;
+    grid-template-columns: 58px 565px 187px;
     justify-content: space-between;
     align-items: center;
 }
@@ -400,6 +401,7 @@ img{
 .img-item-food-grid img{
     max-width: 227px;
     max-height: 200px;
+    object-fit: contain;
 }
 
 .img-item-food-grid div {
@@ -800,7 +802,7 @@ footer {
     font-size: 32px;
     font-weight: 600;
     white-space: nowrap;
-    
+
 }
 
 .info-site-footer ul{

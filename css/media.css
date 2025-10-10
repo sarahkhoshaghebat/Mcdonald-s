@@ -45,6 +45,9 @@
 }
 
 @media(max-width:834px){
+    .section-food {
+        margin-top: 4rem;
+    }
     .navigation{
         grid-template-columns: repeat(3,auto);
     }
@@ -159,7 +162,7 @@
         max-width: 200px;
     }
     .img-section-mobile-app img{
-        top: -23px;
+        top: -13px;
     }
     .content-search-location h6{
         font-size: 25px;
