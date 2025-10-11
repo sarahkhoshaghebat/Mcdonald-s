@@ -466,6 +466,7 @@ img{
 
 .section-off{
     margin-top: 6rem;
+    overflow-x: hidden;
 }
 
 .section-off .row-title-section-food {
@@ -491,6 +492,7 @@ img{
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     cursor: pointer;
+    flex: 1 1 300px;
 }
 
 .item-food-off:hover{
