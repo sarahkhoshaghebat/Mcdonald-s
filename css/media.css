@@ -178,6 +178,21 @@
    }
 }
 
+@media (max-width: 585px) {
+     .right-item-food img{
+        right: 0;
+    }
+    .seconde-item-food-off .right-item-food img {
+        right: auto;
+        top: 10%;
+    }
+    .third-item-food-off .right-item-food img {
+        right: auto;
+        top: 19%;
+    }
+}
+
+
 @media(max-width:550px){
     .content-search-location {
         text-align: center;

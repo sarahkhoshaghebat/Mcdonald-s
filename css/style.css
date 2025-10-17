@@ -6,7 +6,7 @@
 
 body{
     font-family: poppins;
-    overflow-x: hidden;
+    overflow-x:hidden;
 }
 ul {
     list-style: none;
@@ -478,11 +478,13 @@ img{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
     gap: 30px;
-    margin-top: 2rem;
+    margin: 2rem auto;
+    overflow: hidden;
+
 }
 
 .item-food-off{
-    height: 335px;
+    height: auto;
     padding: 2rem 0 2rem 1.2rem;
     border: 1px solid var(--color_e3e3e3);
     background-color: var(--color_f1f1f1);
@@ -493,6 +495,17 @@ img{
     -o-border-radius: 20px;
     cursor: pointer;
     flex: 1 1 300px;
+    overflow: hidden;
+}
+
+.right-item-food img {
+    position: relative;
+    display: block;
+    margin-top: 15px;
+    max-width: 270px;
+    max-height: 204px;
+    width: 180px;
+    right: 24%;
 }
 
 .item-food-off:hover{
@@ -613,14 +626,7 @@ img{
     line-height: 27px;
 }
 
-.right-item-food img {
-    position: relative;
-    margin-top: 15px;
-    max-width: 273px;
-    max-height: 204px;
-    width: 180px;
-    right: 24%;
-}
+
 
 .seconde-item-food-off .right-item-food img {
     right: 80%;
